@@ -25,7 +25,7 @@ function whatsappSend(){
         document.getElementById("customer-mail").value = "";
         document.getElementById("message-text").value = "";
         
-                window.open('https://api.whatsapp.com/send?phone=233203441028'+'&text=%20'+'Name:%20'+customerName+'%20Number:%20'+customerNumber+'%20email:%20'+customerMail+'%20message:%20'+customerMessage);
+                window.open('https://api.whatsapp.com/send?phone=233208087874'+'&text=%20'+'Name:%20'+customerName+'%20Number:%20'+customerNumber+'%20email:%20'+customerMail+'%20message:%20'+customerMessage);
 
         
 //         return url
