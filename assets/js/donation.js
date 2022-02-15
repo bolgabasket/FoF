@@ -19,13 +19,16 @@ function whatsappSend(){
     }
     else{
         swal("Thank you!!!", "A volunteer will get in touch soon!!","success");
-        var url = 'https://api.whatsapp.com/send?phone=233203441028'+'&text=%20'+'Name:%20'+customerName+'%20Number:%20'+customerNumber+'%20email:%20'+customerMail+'%20message:%20'+customerMessage;        return url
+//         var url = 'https://api.whatsapp.com/send?phone=233203441028'+'&text=%20'+'Name:%20'+customerName+'%20Number:%20'+customerNumber+'%20email:%20'+customerMail+'%20message:%20'+customerMessage;        return url
         document.getElementById("customer-name").value = "";
         document.getElementById("customer-number").value = "";
         document.getElementById("customer-mail").value = "";
         document.getElementById("message-text").value = "";
         
-        return url
+                window.open('https://api.whatsapp.com/send?phone=233203441028'+'&text=%20'+'Name:%20'+customerName+'%20Number:%20'+customerNumber+'%20email:%20'+customerMail+'%20message:%20'+customerMessage);
+
+        
+//         return url
     }
 
 }
