@@ -19,8 +19,7 @@ function whatsappSend(){
     }
     else{
         swal("Thank you!!!", "A volunteer will get in touch soon!!");
-        var url = 'https://api.whatsapp.com/send?phone=233203441028'+'&text='+'Name:'+customerName+'Number:'+customerNumber+'email:'+customerMail+'message:'+customerMessage;
-        return url
+        var url = 'https://api.whatsapp.com/send?phone=233203441028'+'&text=%20'+'Name:%20'+customerName+'%20Number:%20'+customerNumber+'%20email:%20'+customerMail+'%20message:%20'+customerMessage;        return url
     }
 
 }
